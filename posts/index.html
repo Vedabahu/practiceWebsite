@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="shortcut icon" href="../79869936.jpeg" type="image/x-icon" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+            rel="stylesheet"
+        />
+        <title>Posts</title>
+        <style>
+            body {
+                font-family: Lato, sans-serif;
+                background-color: #22272e;
+                color: #ffffff;
+                min-height: calc(100vh - 30px);
+            }
+
+            header {
+                display: flex;
+                height: 3%;
+                justify-content: space-between;
+                /* padding-top: 10px; */
+            }
+
+            .intro {
+                display: flex;
+                min-width: 10%;
+                max-width: 25%;
+                margin: 0% 0% auto 0%;
+                align-items: center;
+
+                img {
+                    width: 45px;
+                    height: 45px;
+                    border-radius: 50%;
+                    padding: 0% 5%;
+                }
+            }
+
+            .links {
+                display: flex;
+                min-width: 430px;
+                width: 23%;
+                justify-content: space-between;
+                align-items: center;
+
+                div {
+                    padding-right: 3%;
+                    justify-content: center;
+
+                    svg {
+                        fill: none;
+                        stroke: #ffffff;
+                        stroke-width: 2;
+                        transition: 0.3s;
+                        height: 35%;
+                        padding-right: 5px;
+                    }
+
+                    a {
+                        display: flex;
+                        font-size: large;
+                        color: #ffffff;
+                        text-decoration: none;
+                        transition: 0.3s;
+                        align-items: center;
+                    }
+
+                    a:hover {
+                        color: aqua;
+
+                        svg {
+                            stroke: aqua;
+                        }
+                    }
+                }
+            }
+
+            h1 {
+                text-align: center;
+                font-size: calc(1.681 * 17.5px * 1.5);
+            }
+
+            p {
+                font-size: 17.5px;
+                max-width: 42.1dvw;
+                margin: auto;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <div class="intro">
+                <img src="../79869936.jpeg" alt="Avatar" />
+                <h3>Vedabahu</h3>
+            </div>
+            <div class="links">
+                <div class="nav-link">
+                    <a href="../index.html">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            class="feather feather-home"
+                        >
+                            <path
+                                d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"
+                            ></path>
+                            <polyline points="9 22 9 12 15 12 15 22"></polyline>
+                        </svg>
+                        Home
+                    </a>
+                </div>
+                <div class="nav-link">
+                    <a href="../about/index.html">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            class="feather feather-info"
+                        >
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <line x1="12" y1="16" x2="12" y2="12"></line>
+                            <line x1="12" y1="8" x2="12.01" y2="8"></line>
+                        </svg>
+                        About
+                    </a>
+                </div>
+                <div class="nav-link">
+                    <a href="./index.html">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            class="feather feather-bookmark"
+                        >
+                            <path
+                                d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"
+                            ></path>
+                        </svg>
+                        Posts
+                    </a>
+                </div>
+                <div class="nav-link">
+                    <a href="../projects/index.html">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="20"
+                            height="20"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke-width="1"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            class="feather feather-code"
+                        >
+                            <polyline points="16 18 22 12 16 6"></polyline>
+                            <polyline points="8 6 2 12 8 18"></polyline>
+                        </svg>
+                        Projects
+                    </a>
+                </div>
+                <div class="nav-link">
+                    <a
+                        href="https://github.com/Vedabahu"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="20"
+                            height="20"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="1"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            class="feather feather-github"
+                        >
+                            <path
+                                d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
+                            ></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </header>
+        <h1>Posts</h1>
+        <p>Nothing to see here yet!!</p>
+    </body>
+</html>
