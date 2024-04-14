@@ -94,7 +94,7 @@
             }
 
             .main-content {
-                max-width: 42.18dvw;
+                max-width: min(810px, 95dvh);
                 font-size: 17.5px;
                 margin: auto;
                 line-height: 4dvh;
@@ -110,14 +110,11 @@
                 strong {
                     font-weight: 700;
                 }
-            }
 
-            /* p {
-                max-width: 1000px;
-                font-size: large;
-                line-height: 5dvh;
-                margin: auto;
-            } */
+                .mail {
+                    text-decoration: none;
+                }
+            }
         </style>
     </head>
 
@@ -281,7 +278,11 @@
             </p>
 
             <ol>
-                <li>📩 G-Mail</li>
+                <li>
+                    <a href="mailto:23bcs112@iiitdwd.ac.in" class="mail"
+                        >📩 G-Mail</a
+                    >
+                </li>
             </ol>
         </div>
     </body>
